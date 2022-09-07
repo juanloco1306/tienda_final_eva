@@ -115,6 +115,10 @@ img{
   height: auto;
 }
 
+.category__description{
+  color: #eee;
+}
+
 /*========== CLASS CSS ==========*/
 .section{
   padding: 3rem 0 1rem;
@@ -487,6 +491,7 @@ img{
 
 .category__title{
   margin-bottom: var(--mb-0-25);
+  color: plum;
 }
 
 .category__data:hover .category__img{

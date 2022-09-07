@@ -22,7 +22,7 @@ const index = ({ products, bannerData }) => {
       </section>
 
       <section className="section category">
-                <h2 className="section__title">Nuestro compromiso <br/> es complacerte</h2>
+                <h2 className="section-title">Nuestro compromiso <br/> es complacerte</h2>
 
                 <div className="category__container container grid">
                     <div className="category__data">
