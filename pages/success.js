@@ -24,7 +24,7 @@ const Success = () => {
         </p>
         <h2>Gracias por tu compra!</h2>
         <p className="description">
-          Cualquier duda comunicarse por favor a
+          En breve recibiras un correo con indicaciones de entrega por
           <a className="email" href="mailto:order@example.com">
           secretodeva@gmail.com
           </a>
