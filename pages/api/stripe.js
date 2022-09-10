@@ -14,7 +14,7 @@ export default async function handler(req, res) {
           enabled: true,
         },
         shipping_options: [
-          { shipping_rate: ' shr_1LgVItDo11d76qd2VTxJ7rZW' },
+          { shipping_rate: 'shr_1LgVItDo11d76qd2VTxJ7rZW' },
           /*{ shipping_rate: 'shr_1LPtPaDo11d76qd2y3w0S4vq' },*/
         ],
         line_items: req.body.map((item) => {
