@@ -41,7 +41,7 @@ const ProductDetails = ({ product, products }) => {
                         <AiOutlineStar/>
                     </div>
                     <p>
-                        (20)
+                        (10)
                     </p>
                 </div>
                 <h4>Detalles:</h4>
