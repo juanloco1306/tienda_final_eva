@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     <StateContext>
     <Layout>
       <Toaster/>
-      <Script src='https://www.facebook.com/tr?id=516952770431137&ev=PageView&noscript=1'/>
+      <Script src='https://www.facebook.com/tr?id=5519149628142182&ev=PageView&noscript=1"'/>
       <Script id='facebook-script'>
         { `
         !function(f,b,e,v,n,t,s)
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '516952770431137');
+        fbq('init', '5519149628142182');
         fbq('track', 'PageView');
         `}
       </Script>
