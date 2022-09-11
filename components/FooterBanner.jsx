@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
 
 const FooterBanner = () => {
@@ -10,9 +11,9 @@ const FooterBanner = () => {
                     <a href="#" className="footer__logo">Correo</a>
                     <span className="footer__description">secretodeeva@gmail.com</span>
                     <div>
-                        <a href="#" className="footer__social"><i className='bx bxl-facebook'></i></a>
-                        <a href="#" className="footer__social"><i className='bx bxl-instagram'></i></a>
-                        <a href="#" className="footer__social"><i className='bx bxl-twitter'></i></a>
+                        <Link href="https://www.facebook.com/secretodeva"><a className="footer__social"><i className='bx bxl-facebook'></i></a></Link>
+                        <Link href="https://www.instagram.com/elsecretodeva/"><a  className="footer__social"><i className='bx bxl-instagram'></i></a></Link>
+                        <Link href="https://www.tiktok.com/@secretodeva?lang=es"><a className="footer__social"><i className='bx bxl-tiktok'></i></a></Link>
                     </div>
                 </div>
             </div>
