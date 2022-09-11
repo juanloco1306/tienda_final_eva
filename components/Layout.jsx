@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div className='layout'>
       <Head>
+      <meta name="facebook-domain-verification" content="dvch1ruq0unniqw8ilbibe7on4ifuv" />
       <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'/>
         <title>Secreto de Eva</title>
       </Head>
