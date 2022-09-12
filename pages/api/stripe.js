@@ -8,6 +8,11 @@ export default async function handler(req, res) {
       const params = {
         submit_type: 'pay',
         mode: 'payment',
+        /*discounts: [{
+          coupon: 'MAMASITA',
+          code: '',
+        }],*/
+        allow_promotion_codes: true,
         payment_method_types: ['card'],
         billing_address_collection: 'required',
         phone_number_collection: {
