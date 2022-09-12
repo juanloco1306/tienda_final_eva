@@ -8,6 +8,10 @@ export default async function handler(req, res) {
       const params = {
         submit_type: 'pay',
         mode: 'payment',
+        discounts: [{
+          coupon: 'promo_1LhCPHDo11d76qd2jjNutkCA',
+          code: 'SECRETO',
+        }],
         payment_method_types: ['card'],
         billing_address_collection: 'required',
         phone_number_collection: {
