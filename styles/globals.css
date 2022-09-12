@@ -838,7 +838,8 @@ padding: 30px 65px;
   margin-top: 40px;
   text-transform: uppercase;
   /*background-color: var(--first-color);*/
-  background-color: red;
+  /*background-color: red;*/
+  background-color: plum;
   color: #fff;
   cursor: pointer;
     transform: scale(1, 1);
