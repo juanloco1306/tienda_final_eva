@@ -12,7 +12,6 @@ export default async function handler(req, res) {
           coupon: 'MAMASITA',
           code: '',
         }],*/
-        allow_promotion_codes: true,
         payment_method_types: ['card'],
         billing_address_collection: 'required',
         phone_number_collection: {
