@@ -34,7 +34,7 @@ const index = ({ products, bannerData }) => {
                     <div className="category__data">
                     <Image src="/img/pago.png" width={90} height={100} className="category__img"></Image>
                         <h3 className="category__title">Realiza tu pago</h3>
-                        <p className="category__description">Tu pago se realiza de forma segura, aceptamos solo pago con tarjeta</p>
+                        <p className="category__description">Aceptamos pagos con tarjeta de debito,credito o depositos en efectivo en oxxo</p>
                     </div>
 
                     <div className="category__data">
