@@ -27,7 +27,7 @@ const index = ({ products, bannerData }) => {
                 <div className="category__container container grid">
                     <div className="category__data">
                     <Image src="/img/mano2.png" width={90} height={100} className="category__img"></Image>
-                        <h3 className="category__title">Escoge tus Juguetes</h3>
+                        <h3 className="category__title">Escoge tus </h3>
                         <p className="category__description">Tenemos juguetes y productos de la mas alta calidad. Garantia de 3 meses</p>
                     </div>
 
