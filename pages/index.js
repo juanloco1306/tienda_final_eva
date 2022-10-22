@@ -21,7 +21,29 @@ const index = ({ products, bannerData }) => {
                 </div>
       </section>
 
+      <section className="section category">
+                <h2 className="section-title">Nuestro compromiso <br/> es complacerte</h2>
 
+                <div className="category__container container grid">
+                    <div className="category__data">
+                    <Image src="/img/mano2.png" width={90} height={100} className="category__img"></Image>
+                        <h3 className="category__title">Escoge tus Juguetes</h3>
+                        <p className="category__description">Tenemos juguetes y productos de la mas alta calidad. Garantia de 3 meses</p>
+                    </div>
+
+                    <div className="category__data">
+                    <Image src="/img/pago.png" width={90} height={100} className="category__img"></Image>
+                        <h3 className="category__title">Realiza tu pago</h3>
+                        <p className="category__description">Aceptamos pagos con tarjeta de debito,credito o depositos en efectivo en oxxo</p>
+                    </div>
+
+                    <div className="category__data">
+                    <Image src="/img/delivery2.png" width={90} height={100} className="category__img"></Image>
+                        <h3 className="category__title">Recibe</h3>
+                        <p className="category__description">Tu pedido se entrega lo mas pontro posible y con la mayor de las discreciones</p>
+                    </div>
+                </div>
+            </section>
 
     <div className='menu section bd-container'>
     <h2 className="section-title">Juguetes</h2>
